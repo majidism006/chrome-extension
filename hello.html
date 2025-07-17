@@ -5,23 +5,41 @@
   <style>
     body {
       margin: 0;
-      padding: 0;
+      padding: 20px;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
-      height: 150px;
-      width: 150px;
+      height: 300px;
+      width: 300px;
       background: #fffbe7;
+      font-family: Arial, sans-serif;
     }
     img {
       max-width: 100%;
-      max-height: 100%;
+      max-height: 80%;
       border-radius: 12px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      margin-bottom: 15px;
+    }
+    .checkmark {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: #4caf50;
+      font-weight: bold;
+      font-size: 18px;
+    }
+    .checkmark-icon {
+      font-size: 24px;
     }
   </style>
 </head>
 <body>
   <img src="cute.gif" alt="Cute GIF" />
+  <label class="checkmark">
+    <input type="checkbox" id="panic-done" style="accent-color: #4caf50; width: 20px; height: 20px; margin-right: 8px;" />
+    panic done?
+  </label>
 </body>
 </html>
