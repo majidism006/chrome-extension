@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const img = document.getElementById('panic-img');
   const sound = document.getElementById('panic-sound');
   const gifSrc = 'cute.gif';
-  const staticSrc = 'plant.png';
+  const staticSrc = 'chill.png';
 
   checkbox.addEventListener('change', function() {
     if (checkbox.checked) {
